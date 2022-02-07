@@ -1,6 +1,11 @@
+import Header from '../../components/Header';
+import * as S from './Home.style';
+
 const Home = () => {
   return (
-    <h1>Página Home!</h1>
+    <S.Container>
+      <Header mode="dark" />
+    </S.Container>
   );
 }
 
